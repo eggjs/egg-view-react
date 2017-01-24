@@ -1,10 +1,14 @@
 'use strict';
 
-/**
- * view-react default config
- * @member Config#view-react
- * @property {String} SOME_KEY - some description
- */
-exports.view-react = {
+const path = require('path');
 
+module.exports = appInfo => {
+  const config = {};
+
+  config.view = {
+    extname: 'js',
+    dir: path.join(appInfo.baseDir, 'app/view'),
+  };
+
+  return config;
 };
