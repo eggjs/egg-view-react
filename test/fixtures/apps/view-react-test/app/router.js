@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = app => {
-  app.get('/', function* () {
-    this.body = 'hi, ' + app.plugins['view-react'].name;
-  });
+module.exports = function(app) {
+  app.get('/', 'test');
 };
