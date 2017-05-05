@@ -20,7 +20,7 @@
 [download-image]: https://img.shields.io/npm/dm/egg-view-react.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-view-react
 
-STILL WORK IN PROGRESS.
+UNIMPLEMENTED, STILL WORK IN PROGRESS.
 
 egg view plugin for [react].
 
