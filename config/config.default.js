@@ -1,14 +1,16 @@
 'use strict';
 
-const path = require('path');
-
-module.exports = appInfo => {
+module.exports = () => {
   const config = {};
 
   config.view = {
-    extname: 'js',
-    dir: path.join(appInfo.baseDir, 'app/view'),
+    defaultViewEngine: 'react',
+    mapping: {
+      '.js': 'react',
+      '.jsx': 'react',
+    },
   };
 
   return config;
 };
+
