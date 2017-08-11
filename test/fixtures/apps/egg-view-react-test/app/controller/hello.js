@@ -8,6 +8,6 @@ module.exports = class helloController extends Controller {
 
   * markup() {
     const filepath = path.join(this.config.view.root[0], 'hello/hello.jsx');
-    this.ctx.body = this.app.react.renderMarkup(filepath, { message: { text: 'react server side render!' } });
+    this.ctx.body = yield this.app.react.renderMarkup(filepath, { message: { text: 'react server side render!' } });
   }
 };
