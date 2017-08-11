@@ -6,5 +6,5 @@ coverage/
 run/
 .DS_Store
 *.swp
-.vs_code
+.vscode
 *.iml
