@@ -11,7 +11,9 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "egg-view",
+    "react"
   ],
   "dependencies": {
     "react": "^15.6.1",
