@@ -27,7 +27,6 @@ describe('test/egg-view-react.test.js', () => {
       .get('/hello')
       .expect(200)
       .expect(res => {
-        assert(res.text.includes('data-react-checksum'));
         assert(res.text.includes('react server side render!'));
       });
   });
@@ -36,7 +35,6 @@ describe('test/egg-view-react.test.js', () => {
       .get('/markup')
       .expect(200)
       .expect(res => {
-        assert(!res.text.includes('data-react-checksum'));
         assert(res.text.includes('react server side render!'));
       });
   });

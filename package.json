@@ -15,9 +15,10 @@
     "egg-view",
     "react"
   ],
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "autod": "^2.8.0",
@@ -28,6 +29,8 @@
     "egg-mock": "^3.7.0",
     "eslint": "^3.19.0",
     "eslint-config-egg": "^4.2.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "supertest": "^3.0.0",
     "webstorm-disable-index": "^1.2.0"
   },
